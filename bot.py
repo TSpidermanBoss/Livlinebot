@@ -6,8 +6,8 @@ bullet = -1001428773103
 ferrari = -1001421693753                                             
 @app.on_message(Filters.chat(ferrari) & ~ Filters.edited)
 def main(client, message):
- client.send_message( k,message.text.markdown)
+ client.send_message(k,message.text.markdown)
 @app.on_message(Filters.chat(bullet) & ~ Filters.edited)
 def main(client, message):
- client.send_message( k,message.text.markdown)
+ client.send_message(k,message.text.markdown)
 app.run()
