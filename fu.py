@@ -13,7 +13,7 @@ def forward(client, message):
    for word in words:
     if word.casefold() in Message.text.casefold():
       return
-   client.send_message(d, Message.text.markdown)
+   client.send_message(k, Message.text.markdown)
 
 @app.on_message(Filters.command("setb"))
 def forward(client, message):
