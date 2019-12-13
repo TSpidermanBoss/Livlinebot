@@ -1,6 +1,6 @@
 from pyrogram import Client, Filters,Emoji
 app = Client("mcc",715451,"d2cba6f7bf5d1a45682da5bb9071a307")
-k = -1001422448297
+k = -1001152188215
 @app.on_message( Filters.text & ~Filters.edited & Filters.channel)
 def forward(client, message):
  fil = open("source.txt" , "r")
