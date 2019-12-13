@@ -15,7 +15,7 @@ def forward(client, message):
       return
    client.send_message(k,message.text.markdown)
 
-@app.on_message(Filters.command("setb"))
+@app.on_message(Filters.command("setf"))
 def forward(client, message):
   with open("source.txt" , "w") as file:
    file.write(message.text.split(' ')[1])
