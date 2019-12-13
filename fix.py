@@ -1,7 +1,7 @@
 from pyrogram import Client, Filters
-app = Client("mnnn",bot_token="994595159:AAHf0kZuv2xeUb4S1Xf_Z9VCF5HaLoD0kgQ",api_id=768402,api_hash="f6420bf67303614279049d48d3e670f6")
-bullet = -1001289914295                                              
-ferrari = -1001453099412
+app = Client("mnnn",bot_token="1057455657:AAFdlPDYAKVZgF9Tr0ao41JIlDrvJLUqvmE",api_id=768402,api_hash="f6420bf67303614279049d48d3e670f6")
+bullet = -1001422448297                                              
+ferrari = -1001152188215
 @app.on_message(Filters.chat(bullet) & ~ Filters.edited)
 def main(client, message):
  file = open("bullet.txt" , "r")
