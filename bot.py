@@ -1,6 +1,6 @@
 from pyrogram import Client, Filters
 k = -1001350799105
-bot = "1025449281:AAF2ZNFJdjP7Uh-XjyLIJ8LRFTnXsrrZrwQ"
+bot = "929464432:AAGcs59lrU1OKnSI7g02irSFQ4nB6b8XkKg"
 app = Client (session_name="rr",api_id=814511,api_hash="44462f0f278503255d5cc30941b617a9",bot_token = bot)                                   
 bullet = -1001428773103                                              
 ferrari = -1001421693753                                             
