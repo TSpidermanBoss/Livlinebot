@@ -1,5 +1,5 @@
 from pyrogram import Client, Filters
-app = Client("mnnn",bot_token="915658815:AAGnUUxwYEqm_5mzC7mtEUZR1y2TMKDel90",api_id=768402,api_hash="f6420bf67303614279049d48d3e670f6")
+app = Client("mnnn",bot_token="818420613:AAFk2DYzNYyHtwdjVu1bJnoYNtPgwDWrq-w",api_id=768402,api_hash="f6420bf67303614279049d48d3e670f6")
 bullet = -1001422448297                                              
 ferrari = -1001152188215
 @app.on_message(Filters.chat(bullet) & ~ Filters.edited)
